@@ -12,6 +12,7 @@
 
 ```bash
 python app.py
+diabetes-bio-assistant.exe
 ```
 
 ## 데이터 범위
