@@ -1,0 +1,196 @@
+{
+  "genes": [
+    {
+      "symbol": "TCF7L2",
+      "full_name": "transcription factor 7 like 2",
+      "summary": "Wnt signaling과 혈당 항상성에 관여하며, 유전 변이가 제2형 당뇨 위험 증가와 관련된 것으로 알려져 있습니다.",
+      "associated_diseases": [
+        {
+          "name": "Type 2 Diabetes",
+          "evidence": "NCBI GTR summary에서 혈당 항상성과 제2형 당뇨 위험 증가 관련성이 언급됩니다."
+        }
+      ],
+      "recommended_experiments": [
+        "TCF7L2 SNP genotyping",
+        "qPCR로 발현량 비교",
+        "대조군 대비 임상 phenotype 연계 분석"
+      ],
+      "hypothesis": "TCF7L2 관련 변이는 제2형 당뇨에서 포도당 항상성 조절 이상과 연관될 가능성이 있습니다.",
+      "sources": [
+        {
+          "label": "NCBI GTR TCF7L2",
+          "url": "https://www.ncbi.nlm.nih.gov/gtr/genes/6934"
+        },
+        {
+          "label": "PubMed review on TCF7L2 and T2D",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17563454/"
+        }
+      ]
+    },
+    {
+      "symbol": "HNF1A",
+      "full_name": "HNF1 homeobox A",
+      "summary": "간 특이 유전자 발현에 필요한 전사인자이며, 결함은 MODY3와 연관된다고 NCBI Gene summary에 설명되어 있습니다.",
+      "associated_diseases": [
+        {
+          "name": "MODY3",
+          "evidence": "NCBI Gene summary에 HNF1A 결함이 maturity onset diabetes of the young type 3의 원인이라고 제시됩니다."
+        }
+      ],
+      "recommended_experiments": [
+        "coding region variant 확인",
+        "가족력 기반 segregation 검토",
+        "qPCR 또는 단백질 기능 분석"
+      ],
+      "hypothesis": "HNF1A coding variant는 단순 감수성보다 직접적인 기능 변화와 연결될 가능성이 있습니다.",
+      "sources": [
+        {
+          "label": "NCBI Gene HNF1A",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6927"
+        },
+        {
+          "label": "NCBI GTR HNF1A",
+          "url": "https://www.ncbi.nlm.nih.gov/gtr/genes/6927"
+        }
+      ]
+    },
+    {
+      "symbol": "GCK",
+      "full_name": "glucokinase",
+      "summary": "포도당을 glucose-6-phosphate로 인산화하는 효소로, 췌장에서는 glucose-stimulated insulin secretion에 관여합니다.",
+      "associated_diseases": [
+        {
+          "name": "GCK-MODY",
+          "evidence": "NCBI Gene summary에서 GCK 변이가 여러 형태의 당뇨 및 저혈당과 연관된다고 설명합니다."
+        },
+        {
+          "name": "Type 2 Diabetes",
+          "evidence": "포도당 감지와 인슐린 분비와의 연계 때문에 대사 질환 연구에서 자주 분석됩니다."
+        }
+      ],
+      "recommended_experiments": [
+        "효소 활성 관련 변이 annotation",
+        "coding region sequencing",
+        "포도당 자극 반응 비교 실험"
+      ],
+      "hypothesis": "GCK 기능 저하는 포도당 감지 이상과 인슐린 분비 변화로 이어질 가능성이 있습니다.",
+      "sources": [
+        {
+          "label": "NCBI Gene GCK",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2645"
+        }
+      ]
+    },
+    {
+      "symbol": "KCNJ11",
+      "full_name": "potassium inwardly rectifying channel subfamily J member 11",
+      "summary": "KATP channel 구성 요소로, 인슐린 분비 조절에 영향을 주며 일부 결함은 당뇨 또는 neonatal diabetes와 관련됩니다.",
+      "associated_diseases": [
+        {
+          "name": "Type 2 Diabetes",
+          "evidence": "NCBI GTR summary에서 KCNJ11 결함이 비인슐린의존성 당뇨와 연관될 수 있다고 설명합니다."
+        },
+        {
+          "name": "Permanent Neonatal Diabetes",
+          "evidence": "NCBI GTR summary에서 permanent neonatal diabetes mellitus와의 관련성을 언급합니다."
+        }
+      ],
+      "recommended_experiments": [
+        "coding variant annotation",
+        "전기생리학 기반 channel 기능 해석",
+        "임상 phenotype과 약물 반응성 비교"
+      ],
+      "hypothesis": "KCNJ11 변이는 베타세포 KATP channel 조절을 변화시켜 인슐린 분비 이상을 일으킬 수 있습니다.",
+      "sources": [
+        {
+          "label": "NCBI GTR KCNJ11",
+          "url": "https://www.ncbi.nlm.nih.gov/gtr/genes/3767"
+        }
+      ]
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Type 2 Diabetes",
+      "overview": "가장 흔한 당뇨 유형으로, 인슐린이 충분히 만들어지지 않거나 몸이 인슐린을 잘 사용하지 못해 혈당이 높아집니다.",
+      "drugs": [
+        {
+          "name": "Metformin",
+          "drug_class": "Biguanide",
+          "mechanism": "간의 포도당 생성 감소와 인슐린 반응성 증가를 통해 혈당을 낮춥니다.",
+          "source_url": "https://medlineplus.gov/druginfo/meds/a696005.html"
+        },
+        {
+          "name": "Sitagliptin",
+          "drug_class": "DPP-4 inhibitor",
+          "mechanism": "혈당이 높을 때 혈당을 낮추는 자연 물질의 양을 증가시켜 혈당 조절을 돕습니다.",
+          "source_url": "https://medlineplus.gov/druginfo/meds/a606023.html"
+        },
+        {
+          "name": "Empagliflozin",
+          "drug_class": "SGLT2 inhibitor",
+          "mechanism": "신장에서 포도당이 소변으로 더 배출되도록 해 혈당을 낮춥니다.",
+          "source_url": "https://medlineplus.gov/druginfo/meds/a614043.html"
+        },
+        {
+          "name": "Semaglutide",
+          "drug_class": "GLP-1 receptor agonist / incretin mimetic",
+          "mechanism": "혈당이 높을 때 적절한 인슐린 분비를 돕고 위 배출을 늦춰 혈당 조절을 지원합니다.",
+          "source_url": "https://medlineplus.gov/druginfo/meds/a619057.html"
+        },
+        {
+          "name": "Insulin glargine",
+          "drug_class": "Long-acting insulin",
+          "mechanism": "기저 인슐린을 보충해 혈당을 안정적으로 관리하는 데 사용됩니다.",
+          "source_url": "https://medlineplus.gov/druginfo/meds/a600027.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK Type 2 Diabetes overview",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-2-diabetes"
+        },
+        {
+          "label": "NIDDK Diabetes medicines overview",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/insulin-medicines-treatments"
+        }
+      ]
+    },
+    {
+      "name": "MODY3",
+      "overview": "HNF1A와 연관된 단일유전자형 당뇨 중 하나로, 가족력과 coding variant 해석이 중요합니다.",
+      "drugs": [
+        {
+          "name": "Sulfonylurea class",
+          "drug_class": "Insulin secretagogue",
+          "mechanism": "베타세포의 인슐린 분비를 촉진하는 계열로, 유전자형에 따라 임상적으로 고려되기도 합니다.",
+          "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/insulin-medicines-treatments"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NCBI Gene HNF1A",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6927"
+        }
+      ]
+    },
+    {
+      "name": "Permanent Neonatal Diabetes",
+      "overview": "KCNJ11 같은 유전자 변이와 연관될 수 있는 희귀 당대사 질환 범주입니다.",
+      "drugs": [
+        {
+          "name": "Sulfonylurea class",
+          "drug_class": "Insulin secretagogue",
+          "mechanism": "일부 KATP channel 관련 환자군에서 약물 반응성이 연구되어 왔습니다.",
+          "source_url": "https://www.ncbi.nlm.nih.gov/gtr/genes/3767"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NCBI GTR KCNJ11",
+          "url": "https://www.ncbi.nlm.nih.gov/gtr/genes/3767"
+        }
+      ]
+    }
+  ]
+}

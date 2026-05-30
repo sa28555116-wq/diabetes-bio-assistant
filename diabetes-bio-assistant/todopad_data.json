@@ -1,0 +1,19 @@
+{
+    "todo_list": [
+        {
+            "title": "[Type 2 Diabetes] 매일 30분 가볍게 걷기",
+            "done": false,
+            "memo": "혈당 조절을 위해 식후 걷기가 좋습니다."
+        },
+        {
+            "title": "[Type 2 Diabetes] 당분 섭취 줄이기",
+            "done": false,
+            "memo": "설탕, 탄산음료 등 단순 당질 섭취를 제한하세요."
+        },
+        {
+            "title": "[Type 2 Diabetes] 정기적인 혈당 체크",
+            "done": false,
+            "memo": "아침 공복 및 식후 혈당을 기록하세요."
+        }
+    ]
+}
